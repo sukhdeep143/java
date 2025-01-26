@@ -27,14 +27,16 @@ public class Hello {
         // boolean - 1 [true / flase]
         boolean isAdult = true;
 
-        System.out.println(letter);
-        System.out.println(isAdult);
-        System.out.println(longNum);
-        System.out.println(moneny);
-        System.out.println(phoneOne);
-        System.out.println(phone);
-        System.out.println(age);
-        System.out.println(num);
+        // System.out.println("This is a letter" + letter );
+
+        System.out.println("This is a letter : " + letter);
+        System.out.println("The person is a Adult : " +  isAdult);
+        System.out.println("This is a long number : " + longNum);
+        System.out.println("The Moneny is have : " + moneny);
+        System.out.println("The phone number is : " + phoneOne);
+        System.out.println("My Phone number: " + phone);
+        System.out.println("My age is: " + age);
+        System.out.println("Simple num: " + num);
 
     }
 }
